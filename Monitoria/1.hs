@@ -1,0 +1,5 @@
+maquinaSomar :: [Int] -> [Int]
+maquinaSomar [] = []
+maquinaSomar [x] = [x]
+maquinaSomar (a:b:as) | a == 0 && b == 0 = []
+                      | otherwise = [foldr1 (+) (a:maquinaSomar(b:as))]
