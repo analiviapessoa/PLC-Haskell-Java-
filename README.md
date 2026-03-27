@@ -1,1 +1,1 @@
-# PLC-Haskell-Java-
+Repositório com códigos desenvolvidos durante a cadeira de PLC.
